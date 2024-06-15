@@ -11,7 +11,7 @@ const FetchUsers = () => {
       /* const res = await fetch("https://jsonplaceholder.typicode.com/users"); // Asynchronous operation (e.g., fetching data from an API)
       const data = await res.json(); // Parse JSON response
       setUsers(data); // Optionally return data or perform other operations
-      return data; */
+      return data;  */
 
       try {
         const response = await fetch(
